@@ -1,0 +1,127 @@
+Django Ecommerce Website | Intro and setup | Htmx and Tailwind | Part 1
+
+https://www.youtube.com/watch?v=EoYFWkxXxXM&list=PLpyspNLjzwBn_Rc4Vxmucte1OiZANUtE0
+
+next video : 20
+https://www.youtube.com/watch?v=8iCqlFyFu2s&list=PLpyspNLjzwBn_Rc4Vxmucte1OiZANUtE0&index=20&ab_channel=CodeWithStein
+time 4:22
+
+Unable to do a fresh install:
+https://github.com/tailwindlabs/tailwindcss/discussions/1891
+
+placeholder link: https://placehold.jp/240x240.png
+
+urls:
+http://127.0.0.1:8000/cart/success/
+http://127.0.0.1:8000/shop/brown-leather-sofa/
+
+
+Credit card number: 
+4242 4242
+
+commands:
+
+pip3 instlal virtualenv
+virtualenv nordichomes_env
+-how to activate virtualenv:
+macOS
+source virtualenv nordichomes_env/bin/activate
+source env/bin/activate
+Windows:
+source env/scripts/activate
+
+source nordichomes_env/bin/activate
+
+deactivate 
+
+pip install django==3.2.15
+
+django-admin startproject nordichomes
+
+python3 manage.py startapp core
+
+python3 manage.py runserver
+python manage.py runserver
+
+python3 manage.py startapp product
+
+python3 manage.py makemigrations
+
+python3 manage.py migrate
+
+python manage.py createsuperuser
+
+Username (leave blank to use 'julian'): admin
+Email address: julianm08@gmail.com
+Password: 12345678
+
+admin1
+1234
+
+user:
+codewithstein
+codewithstein@gmail.com
+12345678
+
+user1
+julianm08
+julianm08@gmail.com
+12345678rrr
+
+user2
+julianm081
+julianmesa08@gmail.com
+12345678rrr
+
+user3:
+julianm0808
+julianm08@hotmail.com
+12345678rrr
+
+
+python3 manage.py  startapp cart
+
+python manage.py  startapp order
+
+Install Stribe MacOS:
+
+pip3 install stripe
+pip install stripe
+
+
+Windows and mac steps:
+remove env folder from Windows to macOS
+virtualenv env
+source env/bin/activate
+Windows:
+source env/scripts/activate
+pip install django==3.2.15
+pip install pillow
+pip3 install stripe
+pip3 install jmespath
+pip install stripe
+
+
+
+
+Python YouTube tutorials:
+
+Rock Paper Scissor using Computer Vision | OpenCV Python:
+https://www.youtube.com/watch?v=k2EahPgl0ho&ab_channel=Murtaza%27sWorkshop-
+
+Face Recognition with Real Time Database | 2 Hour Course | Computer Vision:
+https://www.youtube.com/watch?v=iBomaK2ARyI&ab_channel=Murtaza%27sWorkshop-RoboticsandAI
+
+
+Python tutorial : How to create a random password generator using python for beginners:
+https://www.youtube.com/watch?app=desktop&v=qgwEs36D_Xc&ab_channel=johangodinho
+
+
+QR Code Generator in Python:
+https://www.youtube.com/watch?v=l4ugfcj7qrI&ab_channel=NeuralNine
+
+Python Game Programming Tutorial: SpaceWar 1:
+https://www.youtube.com/watch?v=Ak1IDnP5IrI&list=PLlEgNdBJEO-muprNCDYiKLZ-Kc3-p8thS&ab_channel=TokyoEdtech
+
+
+
